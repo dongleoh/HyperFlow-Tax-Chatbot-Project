@@ -21,8 +21,8 @@
 | 범주         | 기술/도구                      |
 |--------------|-------------------------------|
 | AI API 연동  | HyperFlow AI (RAG 기반 시스템) |
-| UI 디자인    | Figma                         |
-| 프론트엔드   | HTML/CSS/JS, Bolt UI, Cursor AI |
+| UI 디자인    | Figma Design                 |
+| 프론트엔드   | React.js, Bolt UI, Cursor AI  |
 | 백엔드       | API 연동 via Cursor AI        |
 | 배포         | 로컬 환경 및 데모 영상 확인    |
 
@@ -42,7 +42,8 @@
 ### 1. 하이퍼플로우 플로우그래프
 
 > 시각적 플로우 구성만으로도 내부 RAG 정보 참조를 자동화  
-> ![FlowGraph](./images/hyperflow-graph.png)
+> <img width="1791" height="930" alt="image" src="https://github.com/user-attachments/assets/1b2ed13d-a1e3-49ae-a4d8-7b2e4473b870" />
+
 
 ---
 
@@ -58,15 +59,18 @@
 
 #### 🎨 Figma를 통한 기본 디자인 프레임
 
-> ![FigmaDesign](./images/figma-design.png)
+> <img width="1792" height="922" alt="image" src="https://github.com/user-attachments/assets/f5aec2eb-1979-4132-b23f-71f330e158ca" />
+
 
 #### ⚙️ Bolt를 활용한 UI 상호작용 구현
 
-> ![BoltUI](./images/bolt-ui.png)
+> <img width="1789" height="921" alt="image" src="https://github.com/user-attachments/assets/9d7736ec-215b-4f38-aa53-9c049139be78" />
+
 
 #### 🧩 Cursor AI를 활용한 API 연결
 
-> ![CursorConnection](./images/cursor-connect.png)
+> <img width="1484" height="919" alt="image" src="https://github.com/user-attachments/assets/7e4cf1ca-2847-43fd-934d-e8f48cf6470d" />
+
 
 ---
 
@@ -103,13 +107,6 @@
 - 크롤링 기능 추가 → 외부 세법 사이트 자동 동기화
 - 다국어 세법 문서 대응 (국제 사용자 확장)
 - GPT 파인튜닝 연동 (HyperFlow 외부 커스터마이징)
-
----
-
-## 🙌 프로젝트 후기
-
-- 노코드의 힘을 이해하면서도, 프론트엔드와 백엔드 지식의 필요성을 실감
-- 실무에 가까운 인터랙션과 API 통신 과정을 통해 높은 완성도 확보
 
 ---
 
