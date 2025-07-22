@@ -85,19 +85,24 @@
 ## 📁 프로젝트 구조 예시
 
 
-📦 tax-rag-chatbot
-├── README.md
-├── /images
-│ ├── hyperflow-graph.png
-│ ├── figma-design.png
-│ ├── bolt-ui.png
-│ └── cursor-connect.png
-├── /videos
-│ └── KakaoTalk_20250630_035241749.mp4
-└── /src
-├── index.html
-├── style.css
-└── script.js
+📦 taxy
+├── 📁 node_modules/           # 설치된 의존성 라이브러리
+├── 📁 public/                 # 정적 파일 (예: favicon, 공개 assets 등)
+├── 📁 src/                    # 주요 소스 코드 디렉터리
+│
+├── hyperflow.js              # Hyperflow API 연동 스크립트
+├── index.html                # 앱 진입 HTML
+├── package.json              # 프로젝트 메타 정보 및 의존성 정의
+├── package-lock.json         # 고정된 의존성 버전 정보
+├── README.md                 # 프로젝트 설명 문서
+│
+├── tailwind.config.js        # TailwindCSS 구성 파일
+├── tailwind.css              # TailwindCSS 커스터마이징 스타일
+│
+├── tsconfig.json             # TypeScript 전체 설정
+├── tsconfig.app.json         # 애플리케이션 빌드용 TS 설정
+├── tsconfig.node.json        # Node 실행용 TS 설정
+├── vite.config.ts            # Vite 번들러 구성 파일
 
 
 ---
